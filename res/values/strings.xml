@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Hamilton</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_account_welcome">Welcome to your account listing!</string>
+    <string name="title_activity_welcome_screen">Hamilton</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">HAMILTON</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="welcome">HAMILTON</string>
+    <string name="title_activity_main_account">MainAccountActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_report_display">ReportDisplayActivity</string>
+
+</resources>

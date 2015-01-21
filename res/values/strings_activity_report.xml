@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="to_date">To this date:</string>
+    <string name="from_date">Specify the range of the report; from this date:</string>
+    <string name="generate_spending_report">Generate Spending Report</string>
+</resources>

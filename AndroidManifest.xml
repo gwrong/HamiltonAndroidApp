@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ninerupees.hamilton"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    
+    
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+    	android:targetPackage="com.ninerupees.hamilton"
+    	android:label="your tests label" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="android.test.runner" />
+        <activity
+            android:name="com.ninerupees.hamilton.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.ninerupees.hamilton.WelcomeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_welcome_screen"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ninerupees.hamilton.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.ninerupees.hamilton.MainAccountActivity"
+            android:label="@string/title_activity_main_account" >
+        </activity>
+        <activity
+            android:name="com.ninerupees.hamilton.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.ninerupees.hamilton.CreateAccountActivity"
+            android:label="@string/title_activity_create_account"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.ninerupees.hamilton.test.TestRegisterAccountActivity"
+            android:label="@string/title_activity_test_register_account"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ninerupees.hamilton.test.TestListAccountsActivity"
+            android:label="@string/title_activity_test_list_account"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ninerupees.hamilton.AccountDetailsActivity"
+            android:label="@string/title_activity_account_details" >
+        </activity>
+        <activity
+            android:name="com.ninerupees.hamilton.WithdrawActivity"
+            android:label="@string/title_activity_add_transaction" >
+        </activity>
+        <activity
+            android:name="com.ninerupees.hamilton.DepositActivity"
+            android:label="@string/title_activity_deposit" >
+        </activity>
+        <activity
+            android:name="com.ninerupees.hamilton.ReportActivity"
+            android:label="@string/title_activity_report" >
+        </activity>
+        <activity
+            android:name="com.ninerupees.hamilton.ReportDisplayActivity"
+            android:label="@string/title_activity_report_display"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+    </application>
+
+</manifest>

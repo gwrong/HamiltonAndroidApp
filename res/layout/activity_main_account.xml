@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainAccountActivity" >
+
+    <TextView
+        android:id="@+id/main_account_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/main_account_welcome" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="200dp"
+        android:layout_height="186dp"
+        android:layout_below="@+id/main_account_welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:isScrollContainer="true" >
+    </ListView>
+
+    <Button
+        android:id="@+id/new_account_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="14dp"
+        android:background="@color/black_overlay"
+        android:onClick="onCreateAccountButtonClick"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="@string/create_account"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/generate_report_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/new_account_button"
+        android:layout_alignLeft="@+id/new_account_button"
+        android:layout_alignRight="@+id/new_account_button"
+        android:onClick="onGenerateReportClick"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="@string/generate_report"
+        android:textSize="23sp" />
+
+    <Spinner
+        android:id="@+id/report_type"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/generate_report_button"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

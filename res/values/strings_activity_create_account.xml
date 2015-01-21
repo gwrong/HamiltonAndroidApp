@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="title_activity_create_account">Create Account</string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in_register"><b>Sign in</b> or register</string>
+    <string-array name="account_type_array">
+        <item>Savings</item>
+        <item>Checking</item>
+        <item>Retirement</item>
+    </string-array>
+    <string name="prompt_account_name">Account Name</string>
+    <string name="prompt_full_account_name">Full Account Name</string>
+    <string name="prompt_short_account_name">Account Display Name</string>
+    <string name="prompt_account_notes">Account Notes</string>
+    <string name="prompt_interest_rate">Interest Rate</string>
+    <string name="create_account">Create Account</string>
+
+</resources>

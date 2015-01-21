@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="title_activity_deposit">DepositActivity</string>
+
+    <!-- Strings related to transactions -->
+    <string name="complete_deposit">Complete Deposit</string>
+	<string name="deposit_amount">Deposit amount</string>
+	<string name="deposit_source">Deposit source</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="title_activity_add_transaction">WithdrawActivity</string>
+
+    <!-- Strings related to transactions -->
+    <string name="add_transaction">Add Transaction</string>
+    <string name="complete_withdrawal">Complete Withdrawal</string>
+    <string name="error_zero_transaction">Transaction must be non-zero</string>
+	<string name="withdrawal_amount">Withdrawal amount</string>
+	<string name="withdrawal_reason">Withdrawal reason</string>
+	<string name="withdrawal_expense_category">Expense Category</string>
+	<string name="withdrawal_negative_balance">Cannot have a negative balance</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+	<string name="title_activity_test_list_transactions">Test List Transactions</string>
+    <string name="test_action_list_transactions">List User Transactions</string>
+
+
+</resources>

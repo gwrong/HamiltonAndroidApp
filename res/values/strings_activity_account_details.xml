@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="title_activity_account_details">AccountDetailsActivity</string>
+
+    <!-- Strings related to transactions -->
+    <string name="generate_report">Generate Report</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="deposit">Deposit</string>
+    
+    
+    
+</resources>

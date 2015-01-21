@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="title_activity_test_register_account">TestAccountRegister</string>
+    <string name="test_action_register_account">register</string>
+    <string name="test_prompt_account_name">New Account Name</string>
+    <string name="test_account_exists_error">That Account already exists</string>
+
+
+
+</resources>

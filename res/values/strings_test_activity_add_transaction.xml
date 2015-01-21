@@ -1,0 +1,11 @@
+<resources>
+	<string name="title_activity_test_add_transaction">Test Add Accounts</string>
+    <string name="test_action_add_transaction">Add Transaction</string>
+    <string name="prompt_test_transaction_name">Transaction Name</string>
+	<string name="prompt_test_ammount">Transaction Ammount</string>
+	<string name="prompt_test_transaction_date">Transaction Date</string>
+	<string name="prompt_test_date_entered">Date Entered</string>
+	<string name="prompt_test_category">Category</string>
+
+
+</resources>
